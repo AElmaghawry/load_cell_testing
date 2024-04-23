@@ -1,0 +1,9 @@
+<launch>
+    <!-- <node name="video_stream" pkg="web_video_server" type="web_video_server" args="_port:=11315"/> -->
+    <!-- <node pkg="yolov5" name="mission" type="mission_planner.py" output="screen">
+    </node> -->
+    <node pkg="load_cell_testing" name="load_cell_testing" type="loadcellTest.py" output="screen">
+    </node>
+
+    
+</launch>
